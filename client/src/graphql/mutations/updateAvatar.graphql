@@ -1,0 +1,3 @@
+mutation UpdateAvatar($url: String!) {
+  updateAvatar(url: $url)
+}

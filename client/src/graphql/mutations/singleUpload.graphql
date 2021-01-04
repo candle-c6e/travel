@@ -1,0 +1,3 @@
+mutation SingleUpload($file: Upload!, $type: String!) {
+  singleUpload(file: $file, type: $type)
+}

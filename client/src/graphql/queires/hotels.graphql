@@ -1,0 +1,10 @@
+query Hotels($paginateInput: PaginateInput!) {
+  hotels(paginateInput: $paginateInput) {
+    hotels {
+      id
+      name
+      url
+    }
+    totalPages
+  }
+}

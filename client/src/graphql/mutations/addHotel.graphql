@@ -1,0 +1,10 @@
+mutation AddHotel($hotelInput: HotelInput!) {
+  addHotel(hotelInput: $hotelInput) {
+    id
+    name
+    bio
+    hotelImages {
+      url
+    }
+  }
+}

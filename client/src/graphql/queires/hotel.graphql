@@ -1,0 +1,21 @@
+query Hotel($id: Float!) {
+  hotel(id: $id) {
+    hotel {
+      id
+      name
+      bio
+      address
+      latitude
+      longitude
+      price
+      user {
+        name
+        avatar
+      }
+    }
+    hotelImages {
+      url
+    }
+    reservedDates
+  }
+}

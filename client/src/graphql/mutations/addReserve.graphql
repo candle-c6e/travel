@@ -1,0 +1,15 @@
+mutation AddReservation(
+  $hotel_id: Float!
+  $start_date: DateTime!
+  $end_date: DateTime!
+  $price: Float!
+) {
+  addReservation(
+    reserveInput: {
+      hotel_id: $hotel_id
+      start_date: $start_date
+      end_date: $end_date
+      price: $price
+    }
+  )
+}

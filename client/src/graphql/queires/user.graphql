@@ -1,0 +1,7 @@
+mutation User($id: Float!) {
+  user(id: $id) {
+    id
+    name
+    avatar
+  }
+}

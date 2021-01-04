@@ -1,0 +1,9 @@
+mutation UpdateHotel($hotelEditInput: HotelEditInput!) {
+  updateHotel(hotelEditInput: $hotelEditInput) {
+    id
+    name
+    hotelImages {
+      url
+    }
+  }
+}
